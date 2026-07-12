@@ -51,6 +51,8 @@ apis:
     - type: Documentation
       url: https://www.bloomberg.com/professional/
 common:
+  - type: DomainSecurity
+    url: security/bloomberg-media-platforms-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/BloombergMedia
   - type: Portal
