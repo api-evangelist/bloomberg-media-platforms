@@ -1,9 +1,9 @@
 aid: bloomberg-media-platforms
 name: Bloomberg Media Platforms
-description: Bloomberg Media Platforms encompass Bloomberg's digital news and content distribution channels including
-  Bloomberg.com, Bloomberg Businessweek, Bloomberg Markets, Bloomberg Technology, Bloomberg Opinion, and Bloomberg
-  Quicktake. Bloomberg provides news APIs for distributing financial news, market data updates, and editorial content
-  to institutional clients and media partners.
+description: Bloomberg Media Platforms encompass Bloomberg's digital news and content distribution channels
+  including Bloomberg.com, Bloomberg Businessweek, Bloomberg Markets, Bloomberg Technology, Bloomberg
+  Opinion, and Bloomberg Quicktake. Bloomberg provides news APIs for distributing financial news, market
+  data updates, and editorial content to institutional clients and media partners.
 type: Index
 deliveryModel:
   model: saas
@@ -31,7 +31,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-media-platforms.png
 url: https://raw.githubusercontent.com/api-evangelist/bloomberg-media-platforms/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-08-27'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
 - Media
@@ -44,8 +44,9 @@ tags:
 apis:
 - aid: bloomberg-media-platforms:bloomberg-news-api
   name: Bloomberg News API
-  description: Access Bloomberg's real-time financial news, market reports, and editorial content through Bloomberg's
-    news data feeds. Available to Bloomberg Terminal subscribers and enterprise data license clients.
+  description: Access Bloomberg's real-time financial news, market reports, and editorial content through
+    Bloomberg's news data feeds. Available to Bloomberg Terminal subscribers and enterprise data license
+    clients.
   humanURL: https://www.bloomberg.com/professional/solution/news/
   baseURL: blpapi://localhost:8194
   tags:
@@ -58,8 +59,8 @@ apis:
     url: https://www.bloomberg.com/professional/solution/news/
 - aid: bloomberg-media-platforms:bloomberg-media-api
   name: Bloomberg Media API
-  description: Content distribution API for Bloomberg's editorial content including articles, video clips, and multimedia
-    from Bloomberg.com, Bloomberg Businessweek, and other Bloomberg media properties.
+  description: Content distribution API for Bloomberg's editorial content including articles, video clips,
+    and multimedia from Bloomberg.com, Bloomberg Businessweek, and other Bloomberg media properties.
   humanURL: https://www.bloomberg.com/professional/
   baseURL: https://api.bloomberg.com/media
   tags:
@@ -71,6 +72,8 @@ apis:
   - type: Documentation
     url: https://www.bloomberg.com/professional/
 common:
+- type: Website
+  url: https://bloomberg.com
 - type: ParentCompany
   url: https://apis.io/providers/bloomberg/
   name: Bloomberg
